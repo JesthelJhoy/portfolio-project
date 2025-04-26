@@ -11,12 +11,12 @@
   text-align: center;
 }
 
-h1 {
+.hero h1 {
   font-family: var(--primary-font);
   font-weight: bold;
   font-size: 96px;
 }
-h2 {
+.hero h2 {
   font-family: var(--secondary-font);
   font-weight: regular;
   font-size: 24px;
@@ -30,4 +30,31 @@ h2 {
   padding: 18px 30px;
   border-radius: 4px;
   margin-top: 24px;
+}
+h3 {
+  font-size: 28px;
+  font-style: italic;
+}
+.container h2 {
+  font-size: 44px;
+}
+
+.container p {
+  line-height: 30px;
+}
+
+.btn-branding-app {
+  background-color: var(--branding-color);
+  color: white;
+  padding: 18px 30px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+@media (max-width: 900px) {
+  .col-6 .app-description {
+    padding: 0;
+    text-align: center;
+    background-color: red;
+  }
 }

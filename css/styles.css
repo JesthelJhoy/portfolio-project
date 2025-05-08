@@ -52,8 +52,12 @@ p {
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
+  .hero h1 {
+    font-size: 54px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
   }
   .row {
     display: flex;

@@ -109,6 +109,10 @@ p {
   height: 75%;
 }
 
+a {
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 54px;

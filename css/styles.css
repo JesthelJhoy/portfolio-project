@@ -51,7 +51,7 @@ p {
   margin-top: 24px;
 }
 
-.about-me {
+.content-container {
   background-color: var(--secondary-color);
   padding: 160px 60px;
 }
@@ -62,23 +62,28 @@ p {
   font-weight: bold;
   text-align: center;
 }
-.about-me h1 {
+.content-container h1 {
   font-size: 18px;
   font-family: var(--primary-font);
   text-align: center;
 }
-.about-me h2 {
+.content-container h2 {
   font-size: 28px;
   text-align: center;
   font-family: var(--primary-font);
 }
 
-.about-me p {
-  text-align: center;
-  font-family: var(--primary-font);
+.content-container h3 {
+  font-size: 24px;
+  font-family: var(--secondary-font);
 }
 
-.about-me-content {
+.content-container p {
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+
+.content {
   padding: 20px;
 }
 .btn-project {
@@ -114,14 +119,14 @@ p {
     margin: 12px;
   }
 
-  .about-me,
+  .content-container,
   .avatar {
     display: block;
     margin: 0 auto;
     padding: 10px;
   }
 
-  .about-me h2 {
+  .content-container h2 {
     font-size: 20px;
   }
 

@@ -25,7 +25,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Web Development - Jesthel J.</title>
+    <meta name="description" content="Jesthel is a front-end developer." />
+    <title>Front-end Developer - Jesthel J.</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -45,18 +46,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html" title="About Jesthel"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="work.html">Works</a>
+              <a class="nav-link" href="work.html" title="See Jesthel's Work"
+                >Works</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html" title="Contact Jesthel"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -64,8 +75,10 @@
     </nav>
     <div class="hero">
       <h1>Jesthel J.</h1>
-      <h2>Frontend Developer, based in Italy.</h2>
-      <a href="about.html" class="btn btn-branding">Contact me</a>
+      <h2>Front-end Developer, based in Italy.</h2>
+      <a href="/contact.html" class="btn btn-branding" title="Email Jesthel"
+        >Contact me</a
+      >
     </div>
     <h3 class="text-center m-5">What I've built</h3>
     <div class="container">
@@ -75,6 +88,7 @@
             src="images/weather.png"
             alt="Vero weather app screenshot project"
             class="img-fluid rounded-3 d-none d-lg-block"
+            title="Weather app preview"
           />
         </div>
 
@@ -99,6 +113,7 @@
               href="https://veroweather.netlify.app/"
               class="btn btn-branding-app mb-5"
               target="_blank"
+              title="Go to VeroWeather App"
               >Check the Forecast</a
             >
           </div>
@@ -126,6 +141,7 @@
               href="https://world-timezones-project.netlify.app/"
               class="btn btn-branding-app mb-5"
               target="_blank"
+              title="Go to World clock App"
               >Check Timezones</a
             >
           </div>
@@ -135,6 +151,7 @@
             src="images/worldclock.png"
             alt="World clock app screenshot project"
             class="img-fluid rounded-3 d-none d-lg-block"
+            title="World Clock app preview"
           />
         </div>
       </div>
@@ -144,6 +161,7 @@
             src="images/upliftify.png"
             alt="Upliftify app screenshot project"
             class="img-fluid rounded-3 d-none d-lg-block"
+            title="Upliftify app preview"
           />
         </div>
 
@@ -168,6 +186,7 @@
               href="https://jesthel-mood-generator.netlify.app/"
               class="btn btn-branding-app mb-5"
               target="_blank"
+              title="Try Upliftify"
               >Get an uplifting message from AI</a
             >
           </div>
@@ -182,7 +201,12 @@
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-            <a href="mailto:jesthel.jhoy@gmail.com" class="btn">Contact me</a>
+            <a
+              href="mailto:jesthel.jhoy@gmail.com"
+              class="btn"
+              title="Work with Jesthel"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="footer-email text-center mb-5">
@@ -199,7 +223,14 @@
             ><i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
-      </footer>
-    </div>
+    
+      <p class="text-center mt-5">
+        This website was coded by Jesthel, and it is
+        <a href="https://github.com/JesthelJhoy/portfolio-project"
+          >open-sourced.</a
+        >
+      </p>
+    </div> 
+   </footer>
   </body>
 </html>
